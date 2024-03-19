@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.bash_profile: .bash_profile
+    ~/.bashrc: .bashrc
+    ~/.zshrc: .zshrc
+    ~/.gitconfig: .gitconfig
+    ~/.dotfiles: ''
+    ~/.nvm: .nvm
+    ~/.wakatime: .wakatime
+    ~/.config/nvim: nvim
+    ~/.config/tmux: tmux
+    ~/.config/i3: i3
+    ~/.config/starship.toml: starship.toml
+    ~/.config/fish: fish
+    ~/.config/alacritty: alacritty
+
+- shell: []

@@ -1,0 +1,6 @@
+[user]
+	email = kelvinkirima2@gmail.com
+	name = kelvinkirima014
+  signingKey = SHA256:Ka1ur4Nq9DBTCQF5E3HRQU24w7e+4FIQo2JD7Hq2vQM
+[credential]
+	helper = store
