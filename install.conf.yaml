@@ -12,7 +12,7 @@
     ~/.gitconfig: .gitconfig
     ~/.dotfiles: ''
     ~/.nvm: .nvm
-    ~/.wakatime: .wakatime
+    ~/.wakatime.cfg: .wakatime.cfg
     ~/.config/nvim: nvim
     ~/.config/tmux: tmux
     ~/.config/i3: i3
