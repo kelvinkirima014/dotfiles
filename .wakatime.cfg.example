@@ -6,4 +6,4 @@ ignore =
     PULLREQ_EDITMSG$
     MERGE_MSG$
     TAG_EDITMSG$ 
-# add api key here
+api_key = 
