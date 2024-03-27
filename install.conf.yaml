@@ -18,5 +18,7 @@
     ~/.config/starship.toml: starship.toml
     ~/.config/fish: fish
     ~/.config/alacritty: alacritty
+    ~/.config/picom: picom
+    ~/.config/polybar: polybar
 
 - shell: []

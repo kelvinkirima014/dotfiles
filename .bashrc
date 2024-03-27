@@ -32,5 +32,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(starship init bash)"
-source /home/0xAckerman/alacritty/extra/completions/alacritty.bash
 source ~/.bash_completion/alacritty
+source /home/0xAckerman/extra/completions/alacritty.bash
+
