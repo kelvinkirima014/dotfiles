@@ -198,6 +198,3 @@ bindsym $mod+r mode "resize"
 # configure 5px of extra space to screen edges
 gaps outer 5px
 
-
-# launch polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
