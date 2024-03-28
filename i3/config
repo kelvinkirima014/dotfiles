@@ -196,5 +196,5 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # configure 5px of extra space to screen edges
-gaps outer 5px
+# gaps outer 5px
 
