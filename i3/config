@@ -33,7 +33,7 @@ exec_always --no-startup-id picom &
 exec --no-startup-id dex --autostart --environment i3
 
 # set wallpaper with fed
-exec_always --no-startup-id feh --no-fehbg --bg-scale $HOME/Pictures/wallpapers/moonman.jpeg
+exec_always --no-startup-id feh --no-fehbg --bg-scale $HOME/Pictures/wallpapers/cozy-cartoon-wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # start i3 components
