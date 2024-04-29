@@ -5,7 +5,10 @@ set $meh Control+Shift
 
 # set font
 font pango:monospace 8
-font pango:Hasklug Nerd Font Regular 10
+font pango:Hasklug Nerd Font Regular 10#interactive screenshot by pressing printscreen
+bindsym Print exec gnome-screenshot -i 
+#crop-area screenshot by pressing Mod + printscreen
+bindsym $mod+Print exec gnome-screenshot -a
 
 # NOTE: sleep 1 adds a small delay to prevent possible race conditions with suspend
 set $Locker i3lock && sleep 1
@@ -97,11 +100,11 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
-bindsym $mod+b split horizontal
-
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+v split horizontal
+
+# split in horizontal orientation
+bindsym $mod+b split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -198,3 +201,7 @@ bindsym $mod+r mode "resize"
 # configure 5px of extra space to screen edges
 # gaps outer 5px
 
+#interactive screenshot by pressing printscreen
+bindsym --release Print exec gnome-screenshot -i 
+#crop-area screenshot by pressing Mod + printscreen
+bindsym --release $mod+Print exec gnome-screenshot -a
