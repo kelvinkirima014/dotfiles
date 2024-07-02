@@ -20,5 +20,6 @@
     ~/.config/alacritty: alacritty
     ~/.config/picom: picom
     ~/.config/polybar: polybar
+    ~/.config/nix: nix
 
 - shell: []
