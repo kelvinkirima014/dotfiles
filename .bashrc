@@ -33,5 +33,4 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(starship init bash)"
 source ~/.bash_completion/alacritty
-source /home/0xAckerman/extra/completions/alacritty.bash
-
+source ~/.bash_completion/alacritty
